@@ -1,0 +1,13 @@
+# Install these on Raspberry Pi 4 (Buster OS)
+# See README.md for full setup instructions
+
+# MediaPipe — use the RPi-specific build:
+# sudo pip3 install mediapipe-rpi4
+#
+# OpenCV — must be built from source on Pi (see README)
+# opencv-python is listed here for reference/desktop use only
+
+opencv-python==4.4.0.46
+mediapipe-rpi4
+gtts
+# mpg321 is a system package — install with: sudo apt install mpg321
